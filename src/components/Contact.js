@@ -32,7 +32,7 @@ function Contact() {
         alt="Wynwood"
         className="absolute bg-cover w-full h-full"
       />
-      <div id="contact" className="p-16 lg:pt-44 container mx-auto relative">
+      <div id="contact" className="p-16 lg:px-48 container mx-auto relative">
         <section className="relative flex content-center flex-col bg-black opacity-90 rounded-lg shawdow-2xl">
           <form
             netlify

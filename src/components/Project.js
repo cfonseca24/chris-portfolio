@@ -10,7 +10,7 @@ function Project() {
         alt="Sky with Plane"
         className="absolute object-cover w-full h-full"
       />
-      <div className="text-black-400 bg-white body-font text-center container px-5 py-32 mx-auto  lg:px-38">
+      <div className="text-black-400 bg-white body-font text-center container px-5 py-32 mx-auto  lg:px-48">
         <div className="flex flex-wrap mx-auto bg-black opacity-80 rounded-lg shawdow-2xl flex p-10 ">
         <h1 className="container sm:text-4xl text-3xl font-medium cursive mb-4 text-white text-center">
             PROJECTS
