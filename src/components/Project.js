@@ -8,11 +8,11 @@ function Project() {
       <img
         src={image5}
         alt="Sky with Plane"
-        className="absolute object-cover w-full h-full"
+        className="absolute object-cover w-full h-full "
       />
-      <div className="text-black-400 bg-white body-font text-center container px-5 py-32 mx-auto  lg:px-48">
-        <div className="flex flex-wrap mx-auto bg-black opacity-80 rounded-lg shawdow-2xl flex p-10 ">
-        <h1 className="container sm:text-4xl text-3xl font-medium cursive mb-4 text-white text-center">
+      <div className="text-black-400 bg-white body-font text-center container px-5 py-32 mx-auto  lg:px-48 ">
+        <div className="flex flex-wrap mx-auto bg-black opacity-80 rounded-lg shawdow-2xl flex p-10 justify-center ">
+        <h1 className="container sm:text-4xl text-3xl font-medium cursive mb-4 text-white text-center ">
             PROJECTS
           </h1>
           {projects.map((project) => (
@@ -29,7 +29,7 @@ function Project() {
                   className=" relative inset-0 w-max h-max object-contain shawdow-lg rounded-lg "
                   src={project.image}
                 />
-                <div className="absolute px-10 py-10 z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-80 rounded-lg">
+                <div className="absolute px-10 z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-80 rounded-lg">
                   <h2 className="tracking-widest text-sm title-font font-medium text-red-200 font-bold cursive mb-1">
                     {project.subtitle}
                   </h2>

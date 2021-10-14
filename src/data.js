@@ -1,28 +1,27 @@
- export const projects = [
+export const projects = [
   {
     title: "SwingBeat Landing Page",
     subtitle: "Bootstrap, CSS, JS",
-    description:
-      "This was a practice project creating a landing page with Bootstrap",
+    description: "Practice creating landing page.",
     image: "./sbwalkthrough.gif",
     link: "https://github.com/cfonseca2013/SimpleTodo",
   },
   {
     title: "Rock, Paper, Scissors",
     subtitle: "Javascript, HTML, CSS",
-    description:
-      "This is a simple rock, papers, scissors game.",
+    description: "This is a simple rock, papers, scissors game.",
     image: "./rpcwalkthrough.gif",
     link: "https://github.com/cfonseca2013/new-rock-paper-scissors-UI",
   },
-  /*{
-    title: "SimpleTODO",
+  {
+    title: "Flixster",
     subtitle: "Java, Android",
     description:
-      "This is a simple TODO App for Android. Created for CodePath project.",
-    image: "./walkthrough.gif",
-    link: "https://github.com/cfonseca2013/SimpleTodo",
+      "Simple movie app for Andoird. Created for Codepath project.",
+    image: "./flixpt2.gif",
+    link: "https://github.com/cfonseca2013/flixster",
   },
+  /*
   {
     title: "Epic Todo App",
     subtitle: "React Hooks",
