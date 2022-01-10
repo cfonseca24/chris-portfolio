@@ -22,7 +22,7 @@ function Project() {
               key={project.image}
               className="sm:w-1/2 w-200 p-4"
             >
-              <div className="flex relative rounded ">
+              <div className="flex relative rounded">
                 <img
                   alt="gallery"
                   className="relative inset-0 w-max h-max object-contain shawdow-lg rounded-lg "
