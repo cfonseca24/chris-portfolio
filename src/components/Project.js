@@ -25,7 +25,7 @@ function Project() {
               <div className="flex relative rounded ">
                 <img
                   alt="gallery"
-                  className=" relative inset-0 w-max h-max object-contain shawdow-lg rounded-lg "
+                  className="relative inset-0 w-max h-max object-contain shawdow-lg rounded-lg "
                   src={project.image}
                 />
                 <div className="absolute px-10 z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-80 rounded-lg">
