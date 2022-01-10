@@ -1,12 +1,5 @@
 export const projects = [
 	{
-		title: "Roman Fuller Personal/Business Website",
-		subtitle: "JavaScript, HTML, CSS",
-		description: "Created a personal/business website for client.",
-		image: "./roman.gif",
-		link: "https://romanfuller.netlify.app/",
-	},
-	{
 		title: "SwingBeat Landing Page",
 		subtitle: "Bootstrap, CSS, JavaScri[t",
 		description: "Practice creating landing page.",
@@ -19,6 +12,13 @@ export const projects = [
 		description: "This is a simple rock, papers, scissors game.",
 		image: "./rpcwalkthrough.gif",
 		link: "https://github.com/cfonseca2013/new-rock-paper-scissors-UI",
+	},
+	{
+		title: "Roman Fuller Personal/Business Website",
+		subtitle: "JavaScript, HTML, CSS",
+		description: "Created a personal/business website for client.",
+		image: "./roman.gif",
+		link: "https://romanfuller.netlify.app/",
 	},
 	{
 		title: "Flixster",
